@@ -10,3 +10,39 @@
 		margin-left: -1em;
 		margin-right: .100em;
 	}
+
+main .carousel-caption {
+	background: rgba(0, 0, 0, 0.75);
+	position: initial;
+	text-align: inherit;
+	padding-left: 15%;
+}
+
+
+/*
+	form 
+	http://getbootstrap.com/examples/navbar-fixed-top/navbar-fixed-top.css
+
+	so the navbar doesn't flow in the content
+	*/
+body {
+	padding-top: 70px;
+}
+
+
+h1[id] {
+	padding-top: 80px;
+	margin-top: -45px;
+}
+
+@media (min-width: 992px) {
+	.nav-tabs.affix {
+		top: 50px; /* Set the top position of pinned element */
+	}
+}
+
+@media (max-width: 992px) {
+	.nav-tabs.affix {
+		position: initial;
+	}
+}
