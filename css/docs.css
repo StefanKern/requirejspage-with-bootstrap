@@ -47,6 +47,14 @@ h1[id] {
 	}
 }
 
+
+
+/* fix for  header and affix (when clicking on a link with an id, the title was hidden under the header)*/
+h2[id] {
+	padding-top: 70px;
+	margin-top: -55px;
+}
+
 /*
     Pygments manni style
 */
