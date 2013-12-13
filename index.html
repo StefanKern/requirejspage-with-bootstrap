@@ -113,6 +113,13 @@
 
 		<main class="bs-masthead">
 			<div class="container">
+				<div class="visible-lg">
+					<div class="lead">
+						<img src="images/logo.png" style="float: left" height="80"/>
+						<h1 style="padding-top: 20px">Require.js</h1>
+						<div class="clearfix"></div>
+					</div>
+				</div>
 				<div class="visible-lg visible-md">
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="100000">
 						<ol class="carousel-indicators">
@@ -155,9 +162,9 @@
 					</div>
 				</div>
 
-				<div class="hidden-lg hidden-md">
+				<div>
 					<div id="intro" class="mono">
-						<p>
+						<p class="hidden-lg hidden-md">
 							RequireJS is a JavaScript file and module loader. It is optimized for
 							in-browser use, but it can be used in other JavaScript environments,
 							like Rhino and <a href="docs/node.html">Node</a>. Using
@@ -165,7 +172,7 @@
 							quality of your code.
 						</p>
 
-						<p>
+						<p class="hidden-md">
 							IE 6+ .......... compatible ✔<br>
 							Firefox 2+ ..... compatible ✔<br>
 							Safari 3.2+ .... compatible ✔<br>
@@ -173,7 +180,9 @@
 							Opera 10+ ...... compatible ✔
 						</p>
 
-						<p><a href="docs/start.html">Get started</a> then check out the <a href="docs/api.html">API</a>.</p>
+						<p class="hidden-lg hidden-md">
+							<a href="docs/start.html">Get started</a> then check out the <a href="docs/api.html">API</a>.
+						</p>
 					</div>
 				</div>
 			</div>
